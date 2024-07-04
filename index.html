@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
+/>
+    <title>Mini project</title>
+</head>
+<body>
+    <main class="container">
+        <h2 class="pico-color-blue-350">IP Geolocation Threat</h2>
+        <form id="form">
+            <label>
+                IP del usuario
+                <input required id="input" type="text" placeholder="Introduce aquí la IP">
+                <small>Por ejemplo: 54.85.132.205</small>
+            </label>
+            <button type="submit" id="submit">
+                Buscar información de esta IP
+            </button>
+
+        </form>
+
+        <div>
+            <pre id="results">
+
+            </pre>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
